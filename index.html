@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" as="image" href="./assets/image/background.webp">
   <link rel="stylesheet" type="text/css" href="./assets/styles/fonts.css">
   <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
   <title>YouTube | Kitty Trader</title>
 </head>
-<body>
+<body style="background-image: url('./assets/image/background.webp');">
   <article class="card">
     <div class="card__main">
       <p class="youtube">
@@ -16,7 +17,7 @@
         <span class="youtube__title">YouTube</span>
       </p>
   
-      <img class="card__avatar" src="./assets/image/avatar.png" alt="avatar">
+      <img class="card__avatar" src="./assets/image/avatar.png" alt="avatar" loading="lazy">
   
       <h1 class="card__info-title">Kitty Trader</h1>
 
